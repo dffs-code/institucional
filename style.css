@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	color: #333;
+	font-family: 'Epilogue', sans-serif;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+h1 {
+	color: #555;
+	font-size: 20px;
+	padding: 10px 0 10px 0;
+}
+
+li {
+	list-style: none;
+	padding: 5px;
+}
+
+.slider-wrapper {
+	background-color: #d1d1d1;
+	margin: 100px auto;
+	margin-bottom: 0;
+	width: 100%;
+}
+
+.info {
+	background-color: #454545;
+	color: white;
+	height: 20px;
+	width: 100%;
+}
+
+.phone {
+	margin-left: auto;
+	margin-right: auto;
+	width: 894px;
+}
+
+.phone p {
+	float: right;
+}
+
+.out-logo {
+	display: flex;
+	float: left;
+	margin-top: 20px;
+	width: 150px;
+}
+.logo div{
+	flex-direction: column;
+	width: 20px;
+	height: 20px;
+	background: #164973;
+	margin-top: 5px;
+}
+
+.out-logo p{
+	font-size: 35px;
+	float: right;
+	margin-left: 10px;
+	margin-top: 7px;
+}
+
+.navbar {
+	margin-left: auto;
+	margin-right: auto;
+	width: 894px;
+}
+
+
+.menu {
+	float: right;
+	list-style: none;
+	position: relative;
+	top: 70px;
+}
+
+.menu li {
+	color: grey;
+	float: left;
+	text-align: center;
+	width: 100px;
+	transition: all 0.2s ease-in-out;
+}
+
+.menu li:hover, .menu li a:hover{
+	color: black;
+	background: #e3e3e3;
+}
+
+.menu ul {
+	margin-top: 7px;
+	z-index: 6;
+}
+
+.level1 {
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.level1 ul {
+	margin-left: 105px;
+	margin-top: -19px;
+}
+
+.level1 li {
+	background-color: #454545;
+	color: white;
+	font-size: 13px;
+	margin-left: -10px;
+}
+
+.level1 li a {
+	color: white;
+}
+
+.level2 li {
+	margin-left: -10px;
+}
+
+.menu a {
+	color: grey;
+	text-align: center;
+	text-decoration: none;
+}
+
+.level1, .level2 {
+	position: absolute;
+	visibility: hidden;
+	width: 100px;
+}
+
+.menu li:hover .level1, .menu .level1 li:hover .level2 {
+	visibility: visible;
+}
+
+section {
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 894px;
+}
+
+.text {
+	height: 250px;
+	margin-top: 10px;
+}
+
+.text p {
+	margin: 10px 0 20px 0;
+}
+
+.text img {
+	float: right;
+	margin: 5px;
+}
+
+.list li {
+	list-style: disc;
+	margin-left: 15px;
+}
+
+.destaque{
+	margin-top: 50px;
+}
+
+.destaque .grid {
+	display: grid;
+	gap: 30px;
+	grid-template-columns: repeat(4, 200px);
+}
+
+figure {
+	width: 196px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+figcaption {
+	padding: 5px;
+	transition: all 0.2s ease-in-out;
+}
+
+.destaque figure:hover{
+	background: #e5e5e5;
+}
+
+.rodape {
+	background-color: #454545;
+	bottom: 0;
+	color: whitesmoke;
+	height: auto;
+	top: calc(1vh - height);
+	width: 100%;
+}
+
+.rodape ul {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.rodape li {
+	padding: 15px;
+}
+
+.rodape li:hover{
+	background: #666666;
+}
+
+.rodape h1 {
+	color: whitesmoke;
+	padding-top: 50px;
+	text-align: center;
+}

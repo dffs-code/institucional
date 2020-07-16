@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="pt">
+
+<head>
+  <title>Site Institucional</title>
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./slider/themes/default/default.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="./slider/nivo-slider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="./style.css" type="text/css" media="screen" />
+</head>
+
+<body>
+  <header>
+    <div class="info">
+      <div class="phone">
+        <p>(11) 1234-5678</p>
+      </div>
+    </div>
+    <nav class="navbar">
+      <div class="out-logo">
+        <div class="logo">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <p>LOGO EMPRESA</p>
+      </div>
+      <ul class="menu">
+        <li>HOME</li>
+        <li><a href="#">EMPRESA</a>
+          <ul class="level1">
+            <li>SUBMENU 1</li>
+            <li>SUBMENU 1</li>
+            <li>SUBMENU 1</li>
+            <li><a href="#"></a>SUBMENU 1</a>
+              <ul class="level2">
+                <li>SUBMENU 2</li>
+                <li>SUBMENU 2</li>
+                <li>SUBMENU 2</li>
+                <li>SUBMENU 2</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>CLIENTES</li>
+        <li>CONTATO</li>
+      </ul>
+    </nav>
+  </header>
+  <!--slider-->
+  <div id="wrapper">
+    <div class="slider-wrapper theme-default">
+      <div id="slider" class="nivoSlider">
+        <img src="./img/slide1.jpg" alt="" />
+        <img src="./img/slide2.jpg" alt="" />
+        <img src="./img/slide3.jpg" alt="" data-transition="slideInLeft" />
+      </div>
+    </div>
+  </div>
+
+  <section class="text">
+    <img src="./img/teste.jpg" class="img-aval">
+    <h1>TÍTULO</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni amet nam tempora voluptatibus ad pariatur illo sapiente vel qui, velit nesciunt accusamus iusto consectetur aperiam est molestias ratione itaque excepturi?</p>
+    <ul class="list">
+      <li>ELEMENTO 1 DA LISTA</li>
+      <li>ELEMENTO 2 DA LISTA</li>
+      <li>ELEMENTO 3 DA LISTA</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nisi blanditiis qui id nulla, quas natus explicabo a est, maiores, eligendi sed voluptate deleniti modi eum! Molestiae nulla cumque incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae perspiciatis est eos minima, corrupti, sapiente blanditiis fugit culpa laborum quibusdam adipisci laboriosam sed? Perspiciatis minus quam a facere qui minima!</p>
+  </section>
+
+  <section class="destaque">
+    <h1>BOXES DE DESTAQUE</h1>
+    <div class="grid">
+      <figure>
+        <img src="./img/destaque1.jpg" alt="">
+        <a href="#"><figcaption>Um texto descritivo com um link apenas</figcaption></a>
+      </figure>
+      <figure>
+        <img src="./img/destaque2.jpg" alt="">
+        <a href="#"><figcaption>Um texto descritivo com um link apenas</figcaption></a>
+      </figure>
+      <figure>
+        <img src="./img/destaque3.jpg" alt="">
+        <a href="#"><figcaption>Um texto descritivo com um link apenas</figcaption></a>
+      </figure>
+      <figure><img src="./img/destaque4.jpg" alt="">
+        <a href="#"><figcaption>Um texto descritivo com um link apenas</figcaption></a>
+      </figure>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <ul>
+      <li>HOME</li>
+      <li>EMPRESA</li>
+      <li>CLIENTES</li>
+      <li>CONTATO</li>
+    </ul>
+    <h1>NOTA DE RODAPÉ</h1>
+  </footer>
+
+  <!--nivo slider scripts-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="./slider/jquery.nivo.slider.js"></script>
+  <script type="text/javascript">
+    $(window).load(function () {
+      $('#slider').nivoSlider();
+    });
+  </script>
+</body>
+
+</html>
